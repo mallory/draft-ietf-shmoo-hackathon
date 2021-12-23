@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-12-16T00:54:36.647246+00:00",
+  "timestamp": "2021-12-23T00:55:56.249592+00:00",
   "repo": "eckelcu/draft-ietf-shmoo-hackathon",
   "labels": [
     {
@@ -350,6 +350,24 @@
       "body": "It was pointed out that with some past interoperability events one of the big issues was that of non-disclosure, which is not covered in the draft.  Participants, including rather proprietary companies, brought their source code.  Folks were concerned about leakage of failures and such.  These days the sense of corporate competition is much greater; there are often some serious dollar amounts at risk. Similarly minded Interop test events have a policy of not publishing results.  That comes from a desire to help people improve their code and not allow anyone to do competitive bashing of those who had problems. Efforts to find a usable NDA context failed  What was adopted something was akin to a \"be nice\" rule that suggested that one should only be specific about things that happened to one's own code and not say much about the experiences of others.\r\n\r\nThe IETF Hackathon operates in a much more open environment with much of the code being open source. Interoperability is just one aspect of the Hackathon. Many projects are proof of concepts. Others focus on adding support for a given protocol to established open source projects. Others are more tools related. In the case of interoperability, results are typicality shared publicly, per https://datatracker.ietf.org/doc/html/draft-ietf-shmoo-hackathon#section-4.2. We do not have any rules regarding what to share and what not to share. The Hackathon operates under the IETF Note Well in an attempt to deal with this.\r\nhttps://www.ietf.org/about/note-well/. That said, the rules and terms around the actual code are those of the license associated with that code. The code may be proprietary but it is typically open source. This point is covered at the start of each Hackathon, but I see now it is not mentioned in the draft. Perhaps it would be helpful to add it?",
       "createdAt": "2021-12-14T18:55:49Z",
       "updatedAt": "2021-12-14T18:57:31Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 27,
+      "id": "I_kwDOFgO0Wc5Ay71Y",
+      "title": "update location of hackdemo and codelounge wiki pages ",
+      "url": "https://github.com/eckelcu/draft-ietf-shmoo-hackathon/issues/27",
+      "state": "OPEN",
+      "author": "eckelcu",
+      "authorAssociation": "OWNER",
+      "assignees": [
+        "eckelcu"
+      ],
+      "labels": [],
+      "body": "The hackdemo happy hour and code lounge wiki pages were previously child pages of the IETF meeting wiki page rather than the IETF Hackathon wiki page. Update to use the new location format.\r\n\r\n106hackdemo -> 113hackathon/hackdemo\r\n106codelounge -> 113hackathon/codelounge",
+      "createdAt": "2021-12-22T18:56:11Z",
+      "updatedAt": "2021-12-22T18:56:11Z",
       "closedAt": null,
       "comments": []
     }
