@@ -9,12 +9,12 @@
 <meta content="
        IETF Hackathons encourage the IETF community to collaborate on running code related to existing and evolving Internet standards. This document provides a set of practices that have been used for running IETF Hackathons. These practices apply to Hackathons in which both in-person and remote participation are possible with adaptations for Hackathons that are online only. 
     " name="description">
-<meta content="xml2rfc 3.11.1" name="generator">
+<meta content="xml2rfc 3.12.0" name="generator">
 <meta content="Internet-Draft" name="keyword">
 <meta content="draft-ietf-shmoo-hackathon-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.11.1
-    Python 3.9.5
+  xml2rfc 3.12.0
+    Python 3.9.7
     appdirs 1.4.4
     ConfigArgParse 1.3
     google-i18n-address 2.5.0
@@ -22,13 +22,13 @@
     intervaltree 3.1.0
     Jinja2 2.11.3
     kitchen 1.2.6
-    lxml 4.6.3
+    lxml 4.6.5
     pycountry 20.7.3
-    pyflakes 2.3.0
+    pyflakes 2.3.1
     PyYAML 5.4.1
-    requests 2.25.1
+    requests 2.26.0
     setuptools 52.0.0
-    six 1.15.0
+    six 1.16.0
 -->
 <link href="draft-ietf-shmoo-hackathon.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -632,36 +632,8 @@ hr {
 }
 
 /* index */
-.index ul {
-  margin: 0 0 0 1em;
-  padding: 0;
-  list-style: none;
-}
-.index ul ul {
-  margin: 0;
-}
-.index li {
-  margin: 0;
-  text-indent: -2em;
-  padding-left: 2em;
-  padding-bottom: 5px;
-}
-.indexIndex {
-  margin: 0.5em 0 1em;
-}
-.index a {
-  font-weight: 700;
-}
-/* make the index two-column on all but the smallest screens */
-@media (min-width: 500px) {
-  .index ul {
-    column-count: 2;
-    column-gap: 20px;
-  }
-  .index ul ul {
-    column-count: 1;
-    column-gap: 0;
-  }
+#rfc\.index\.index + ul {
+  margin-left: 0;
 }
 
 /* authors */
@@ -1040,11 +1012,11 @@ svg [stroke="fill"], svg [fill^="#fff"] {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">ietf-hackathon</td>
-<td class="right">November 2021</td>
+<td class="right">January 2022</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Eckel</td>
-<td class="center">Expires 26 May 2022</td>
+<td class="center">Expires 15 July 2022</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1057,12 +1029,12 @@ svg [stroke="fill"], svg [fill^="#fff"] {
 <dd class="internet-draft">draft-ietf-shmoo-hackathon-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2021-11-22" class="published">22 November 2021</time>
+<time datetime="2022-01-11" class="published">11 January 2022</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2022-05-26">26 May 2022</time></dd>
+<dd class="expires"><time datetime="2022-07-15">15 July 2022</time></dd>
 <dt class="label-authors">Author:</dt>
 <dd class="authors">
 <div class="author">
@@ -1107,7 +1079,7 @@ svg [stroke="fill"], svg [fill^="#fff"] {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 26 May 2022.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 15 July 2022.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1116,7 +1088,7 @@ svg [stroke="fill"], svg [fill^="#fff"] {
 <a href="#name-copyright-notice" class="section-name selfRef">Copyright Notice</a>
         </h2>
 <p id="section-boilerplate.2-1">
-            Copyright (c) 2021 IETF Trust and the persons identified as the
+            Copyright (c) 2022 IETF Trust and the persons identified as the
             document authors. All rights reserved.<a href="#section-boilerplate.2-1" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.2-2">
             This document is subject to BCP 78 and the IETF Trust's Legal
@@ -2098,7 +2070,7 @@ Sunday before IETF meeting week
 <dd class="break"></dd>
 <dt id="CODE-LOUNGE">[CODE-LOUNGE]</dt>
       <dd>
-<span class="refTitle">"IETF 106 Code Lounge"</span>, <span>n.d.</span>, <span>&lt;<a href="https://trac.ietf.org/trac/ietf/meeting/wiki/106codelounge">https://trac.ietf.org/trac/ietf/meeting/wiki/106codelounge</a>&gt;</span>. </dd>
+<span class="refTitle">"IETF 113 Code Lounge"</span>, <span>n.d.</span>, <span>&lt;<a href="https://trac.ietf.org/trac/ietf/meeting/wiki/113hackathon/codelounge">https://trac.ietf.org/trac/ietf/meeting/wiki/113hackathon/codelounge</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="DATATRACKER">[DATATRACKER]</dt>
       <dd>
@@ -2130,7 +2102,7 @@ Sunday before IETF meeting week
 <dd class="break"></dd>
 <dt id="HACKDEMO">[HACKDEMO]</dt>
       <dd>
-<span class="refTitle">"IETF 106 Hackdemo Happy Hour"</span>, <span>n.d.</span>, <span>&lt;<a href="https://trac.ietf.org/trac/ietf/meeting/wiki/106hackdemo">https://trac.ietf.org/trac/ietf/meeting/wiki/106hackdemo</a>&gt;</span>. </dd>
+<span class="refTitle">"IETF 113 Hackdemo Happy Hour"</span>, <span>n.d.</span>, <span>&lt;<a href="https://trac.ietf.org/trac/ietf/meeting/wiki/113hackathon/hackdemo">https://trac.ietf.org/trac/ietf/meeting/wiki/113hackathon/hackdemo</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="HACKNET">[HACKNET]</dt>
       <dd>
