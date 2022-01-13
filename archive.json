@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-12-23T00:55:56.249592+00:00",
+  "timestamp": "2022-01-13T01:00:56.713190+00:00",
   "repo": "eckelcu/draft-ietf-shmoo-hackathon",
   "labels": [
     {
@@ -358,7 +358,7 @@
       "id": "I_kwDOFgO0Wc5Ay71Y",
       "title": "update location of hackdemo and codelounge wiki pages ",
       "url": "https://github.com/eckelcu/draft-ietf-shmoo-hackathon/issues/27",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "eckelcu",
       "authorAssociation": "OWNER",
       "assignees": [
@@ -367,8 +367,8 @@
       "labels": [],
       "body": "The hackdemo happy hour and code lounge wiki pages were previously child pages of the IETF meeting wiki page rather than the IETF Hackathon wiki page. Update to use the new location format.\r\n\r\n106hackdemo -> 113hackathon/hackdemo\r\n106codelounge -> 113hackathon/codelounge",
       "createdAt": "2021-12-22T18:56:11Z",
-      "updatedAt": "2021-12-22T18:56:11Z",
-      "closedAt": null,
+      "updatedAt": "2022-01-11T23:41:37Z",
+      "closedAt": "2022-01-11T23:41:37Z",
       "comments": []
     }
   ],
@@ -769,6 +769,60 @@
       "mergedBy": "eckelcu",
       "mergeCommit": {
         "oid": "5023a4a92c86447d79ab97ae614301aaa4f080d7"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 28,
+      "id": "PR_kwDOFgO0Wc4w03Oy",
+      "title": "Expand intro to include inclusive and open nature of the Hackathon and rules around code",
+      "url": "https://github.com/eckelcu/draft-ietf-shmoo-hackathon/pull/28",
+      "state": "OPEN",
+      "author": "eckelcu",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Addresses issue #26 ",
+      "createdAt": "2022-01-11T23:05:45Z",
+      "updatedAt": "2022-01-11T23:05:45Z",
+      "baseRepository": "eckelcu/draft-ietf-shmoo-hackathon",
+      "baseRefName": "main",
+      "baseRefOid": "5023a4a92c86447d79ab97ae614301aaa4f080d7",
+      "headRepository": "eckelcu/draft-ietf-shmoo-hackathon",
+      "headRefName": "nda",
+      "headRefOid": "3de3595c198022a383a87d6894d2301b5c426b23",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 29,
+      "id": "PR_kwDOFgO0Wc4w062M",
+      "title": "update links for Code Lounge and Hackademo Happy Hour",
+      "url": "https://github.com/eckelcu/draft-ietf-shmoo-hackathon/pull/29",
+      "state": "MERGED",
+      "author": "eckelcu",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Addresses issue #27 ",
+      "createdAt": "2022-01-11T23:36:08Z",
+      "updatedAt": "2022-01-11T23:38:43Z",
+      "baseRepository": "eckelcu/draft-ietf-shmoo-hackathon",
+      "baseRefName": "main",
+      "baseRefOid": "5023a4a92c86447d79ab97ae614301aaa4f080d7",
+      "headRepository": "eckelcu/draft-ietf-shmoo-hackathon",
+      "headRefName": "hackdemo-codelounge",
+      "headRefOid": "5649c55bdf611d2926c680d7e9073beff0948b50",
+      "closedAt": "2022-01-11T23:38:18Z",
+      "mergedAt": "2022-01-11T23:38:18Z",
+      "mergedBy": "eckelcu",
+      "mergeCommit": {
+        "oid": "37443d2d84093d44c3e65b27a15768126f9ee042"
       },
       "comments": [],
       "reviews": []
