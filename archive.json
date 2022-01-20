@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-01-13T01:00:56.713190+00:00",
+  "timestamp": "2022-01-20T01:04:16.531280+00:00",
   "repo": "eckelcu/draft-ietf-shmoo-hackathon",
   "labels": [
     {
@@ -340,7 +340,7 @@
       "id": "I_kwDOFgO0Wc5AYRpx",
       "title": "NDAs and code licenses",
       "url": "https://github.com/eckelcu/draft-ietf-shmoo-hackathon/issues/26",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "eckelcu",
       "authorAssociation": "OWNER",
       "assignees": [
@@ -349,9 +349,17 @@
       "labels": [],
       "body": "It was pointed out that with some past interoperability events one of the big issues was that of non-disclosure, which is not covered in the draft.  Participants, including rather proprietary companies, brought their source code.  Folks were concerned about leakage of failures and such.  These days the sense of corporate competition is much greater; there are often some serious dollar amounts at risk. Similarly minded Interop test events have a policy of not publishing results.  That comes from a desire to help people improve their code and not allow anyone to do competitive bashing of those who had problems. Efforts to find a usable NDA context failed  What was adopted something was akin to a \"be nice\" rule that suggested that one should only be specific about things that happened to one's own code and not say much about the experiences of others.\r\n\r\nThe IETF Hackathon operates in a much more open environment with much of the code being open source. Interoperability is just one aspect of the Hackathon. Many projects are proof of concepts. Others focus on adding support for a given protocol to established open source projects. Others are more tools related. In the case of interoperability, results are typicality shared publicly, per https://datatracker.ietf.org/doc/html/draft-ietf-shmoo-hackathon#section-4.2. We do not have any rules regarding what to share and what not to share. The Hackathon operates under the IETF Note Well in an attempt to deal with this.\r\nhttps://www.ietf.org/about/note-well/. That said, the rules and terms around the actual code are those of the license associated with that code. The code may be proprietary but it is typically open source. This point is covered at the start of each Hackathon, but I see now it is not mentioned in the draft. Perhaps it would be helpful to add it?",
       "createdAt": "2021-12-14T18:55:49Z",
-      "updatedAt": "2021-12-14T18:57:31Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2022-01-19T16:54:21Z",
+      "closedAt": "2022-01-19T16:54:21Z",
+      "comments": [
+        {
+          "author": "eckelcu",
+          "authorAssociation": "OWNER",
+          "body": "Addressed by #28 ",
+          "createdAt": "2022-01-19T16:54:21Z",
+          "updatedAt": "2022-01-19T16:54:21Z"
+        }
+      ]
     },
     {
       "number": 27,
@@ -778,25 +786,35 @@
       "id": "PR_kwDOFgO0Wc4w03Oy",
       "title": "Expand intro to include inclusive and open nature of the Hackathon and rules around code",
       "url": "https://github.com/eckelcu/draft-ietf-shmoo-hackathon/pull/28",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "eckelcu",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Addresses issue #26 ",
       "createdAt": "2022-01-11T23:05:45Z",
-      "updatedAt": "2022-01-11T23:05:45Z",
+      "updatedAt": "2022-01-19T16:50:35Z",
       "baseRepository": "eckelcu/draft-ietf-shmoo-hackathon",
       "baseRefName": "main",
       "baseRefOid": "5023a4a92c86447d79ab97ae614301aaa4f080d7",
       "headRepository": "eckelcu/draft-ietf-shmoo-hackathon",
       "headRefName": "nda",
       "headRefOid": "3de3595c198022a383a87d6894d2301b5c426b23",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
+      "closedAt": "2022-01-19T16:49:44Z",
+      "mergedAt": "2022-01-19T16:49:44Z",
+      "mergedBy": "eckelcu",
+      "mergeCommit": {
+        "oid": "f27297188c1919a9e05c9f5345f9d8a655745149"
+      },
+      "comments": [
+        {
+          "author": "eckelcu",
+          "authorAssociation": "OWNER",
+          "body": "The PR addresses issue #26 ",
+          "createdAt": "2022-01-19T16:50:35Z",
+          "updatedAt": "2022-01-19T16:50:35Z"
+        }
+      ],
       "reviews": []
     },
     {
